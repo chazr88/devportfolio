@@ -1,0 +1,22 @@
+:root {
+  color-scheme: dark;
+  --bg: #0b1220;
+  --surface: #111b2e;
+  --ink: #e6edf7;
+  --muted: #93a1b8;
+  --line: #22304a;
+  --accent: #38bdf8;        /* links and focus rings */
+  --accent-strong: #2563eb; /* buttons and filled chips */
+  --accent-ink: #ffffff;
+  --accent-soft: #14233f;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1rem/1.6 'IBM Plex Sans', system-ui, sans-serif; }
+h1, h2, h3, h4 { font-family: 'Bricolage Grotesque', 'IBM Plex Sans', system-ui, sans-serif; line-height: 1.15; margin: 0; }
+a { color: var(--accent); }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.band {
+  background: var(--surface);
+  border-bottom: 4px solid var(--accent-strong);
+}
