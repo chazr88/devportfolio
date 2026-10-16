@@ -23,9 +23,9 @@ export default function App() {
         <h1>Chaz Rowe</h1>
         <p>Software developer. I build CRM features, web apps, and API integrations that turn what a business needs into software it can use.</p>
         <div className="actions">
-          <a className="btn primary" href={`https://github.com/${GITHUB_USERNAME}`}>GitHub</a>
-          <a className="btn" href={LINKEDIN}>LinkedIn</a>
-          <a className="btn" href={`${import.meta.env.BASE_URL}ChazRoweResume.pdf`}>Download resume</a>
+          <a className="btn" href={`https://github.com/${GITHUB_USERNAME}`} target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a className="btn" href={LINKEDIN} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a className="btn" href={`${import.meta.env.BASE_URL}ChazRoweResume.pdf`} target="_blank" rel="noopener noreferrer">Download resume</a>
         </div>
       </header>
         </div>
@@ -80,7 +80,7 @@ export default function App() {
             <article className="project">
               <h3>This site</h3>
               <p>Built with Vite and React, responsive, keyboard accessible, and deployed to GitHub Pages.</p>
-              <a href={`https://github.com/${GITHUB_USERNAME}/${REPO_NAME}`}>View the code</a>
+              <a href={`https://github.com/${GITHUB_USERNAME}/${REPO_NAME}`}target="_blank" rel="noopener noreferrer">View the code</a>
             </article>
           </div>
         </section>

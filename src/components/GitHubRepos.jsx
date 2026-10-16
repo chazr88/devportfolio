@@ -27,7 +27,7 @@ export default function GitHubRepos() {
     <ul className="repos">
       {state.repos.map((r) => (
         <li key={r.id}>
-          <a href={r.html_url}><strong>{r.name}</strong></a>
+          <a href={r.html_url} target="_blank" rel="noopener noreferrer"><strong>{r.name}</strong></a>
           <p className="note">{r.description || 'No description.'}</p>
           <span className="note">{r.language || 'Mixed'}</span>
         </li>
