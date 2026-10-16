@@ -1,6 +1,6 @@
 // Edit these two values first.
-export const GITHUB_USERNAME = 'your-github-username'
-export const REPO_NAME = 'your-repo-name'
+export const GITHUB_USERNAME = 'chazr88'
+export const REPO_NAME = 'devportfolio'
 
 export const skills = [
   { group: 'Languages', items: [{ name: 'JavaScript', shown: true }, { name: 'Python' }, { name: 'PHP' }] },
